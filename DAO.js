@@ -29,4 +29,13 @@ class DAO {
     // })
   }
 }
+
+const d = new DAO();
+d.client
+  .db("newestDB")
+  .collection("newestDB")
+  .findOne({}, (err, res) => {
+    if (err) throw err;
+    console.log(res.name);
+  });
 module.exports = DAO;
