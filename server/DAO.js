@@ -15,31 +15,44 @@ class DAO {
     this.instance = this;
   }
   async createTable(tableName) {
-    await this.client.db(ConstData.dbName).createCollection(`${tableName}`);
-  }
-  async insertToTable(obj, tableName) {
-    await this.client
-      .db(ConstData.dbName)
-      .collection(`${tableName}`)
-      .insertOne(obj);
+    try {
+      await this.client.db(ConstData.dbName).createCollection(`${tableName}`);
+      return ConstData.success;
+    } catch (err) {
+      return "err";
+    }
   }
   async insertOne(obj, table) {
-    await this.client.db(ConstData.dbName).collection(table).insertOne(obj);
+    try {
+      await this.client.db(ConstData.dbName).collection(table).insertOne(obj);
+      return ConstData.success;;
+    } catch (err) {
+      return "err";
+    }
   }
   async insertMany(listObj, table) {
-    await this.client
-      .db(ConstData.dbName)
-      .collection(table)
-      .insertMany(listObj);
+    try {
+      await this.client
+        .db(ConstData.dbName)
+        .collection(table)
+        .insertMany(listObj);
+      return ConstData.success;;
+    }
+    catch (err) {
+      return "err";
+    }
   }
   async findOne(obj, table) {
-    await this.client
-      .db(ConstData.dbName)
-      .collection(table)
-      .findOne(obj, function (err, res) {
-        if(err) return null;
-        return res;
-      });
+    try {
+      const result = await this.client
+        .db(ConstData.dbName)
+        .collection(table)
+        .findOne(obj);
+      return result;
+    } catch (err) {
+      console.error(err);
+      return "err";
+    }
   }
 }
 module.exports = DAO;

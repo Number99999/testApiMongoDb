@@ -29,7 +29,8 @@ export class Xml {
             }
             xhr.send();
         } catch (error) {
-            console.log(error);
+            console.log("loi vcl", error);
+            callback && callback("err")
         }
     }
 }

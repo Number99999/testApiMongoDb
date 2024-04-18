@@ -35,6 +35,41 @@
     "D:\\BE\\testApi\\client\\assets\\scene.scene": {
       "time": 1713439648069.064,
       "uuid": "6075c47e-c477-4dae-9f7c-d6b51ce1775a"
+    },
+    "D:\\BE\\testApiMongoDb\\client\\assets\\scipts": {
+      "time": 1713447839982.8843,
+      "uuid": "e02fcc98-e9b0-4860-a362-09a2f8e92900"
+    },
+    "D:\\BE\\testApiMongoDb\\client\\assets\\test.ts": {
+      "time": 1713452592677.678,
+      "uuid": "8c2becb5-c678-404f-ab92-2c5eea66d408"
+    },
+    "D:\\BE\\testApiMongoDb\\client\\assets\\scipts\\ConstData.ts": {
+      "time": 1713447839982.8843,
+      "uuid": "b2139676-6e5c-4f2d-ad46-29203780b58e"
+    },
+    "D:\\BE\\testApiMongoDb\\client\\assets\\scipts\\xml.ts": {
+      "time": 1713452435429.8162,
+      "uuid": "57e8525d-94ee-444f-8013-a0608d13bb95"
+    },
+    "D:\\BE\\testApiMongoDb\\client\\assets\\scipts.meta": {
+      "time": 1713447839982.8843
+    },
+    "D:\\BE\\testApiMongoDb\\client\\assets\\test.ts.meta": {
+      "time": 1713447839982.8843
+    },
+    "D:\\BE\\testApiMongoDb\\client\\assets\\scipts\\ConstData.ts.meta": {
+      "time": 1713447839982.8843
+    },
+    "D:\\BE\\testApiMongoDb\\client\\assets\\scipts\\xml.ts.meta": {
+      "time": 1713447839982.8843
+    },
+    "D:\\BE\\testApiMongoDb\\client\\assets\\scene.scene": {
+      "time": 1713452654413.6875,
+      "uuid": "6075c47e-c477-4dae-9f7c-d6b51ce1775a"
+    },
+    "D:\\BE\\testApiMongoDb\\client\\assets\\scene.scene.meta": {
+      "time": 1713447839982.8843
     }
   },
   "missing": {}

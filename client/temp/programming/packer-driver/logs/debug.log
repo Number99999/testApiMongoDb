@@ -1,11 +1,11 @@
-debug: Thu, 18 Apr 2024 07:24:28 GMT
-debug: Project: D:\BE\testApi\client
+debug: Thu, 18 Apr 2024 13:47:38 GMT
+debug: Project: D:\BE\testApiMongoDb\client
 debug: Targets: editor,preview
 debug: Incremental file seems great.
 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.8.0\resources\resources\3d\engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 1.033600002527237ms.
+debug: Loading cache costs 12.272799998521805ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server
 debug: Our import map(foo:/bar): {
   "imports": {
@@ -14,7 +14,7 @@ debug: Our import map(foo:/bar): {
 }
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 5.147799998521805ms.
+debug: Loading cache costs 10.921299993991852ms.
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
@@ -28,30 +28,30 @@ debug: Reset databases. Enumerated domains: [
   },
   {
     "root": "db://assets/",
-    "physical": "D:\\BE\\testApi\\client\\assets"
+    "physical": "D:\\BE\\testApiMongoDb\\client\\assets"
   }
 ]
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/",
-    "db://assets/": "file:///D:/BE/testApi/client/assets/"
+    "db://assets/": "file:///D:/BE/testApiMongoDb/client/assets/"
   }
 }
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/",
-    "db://assets/": "file:///D:/BE/testApi/client/assets/"
+    "db://assets/": "file:///D:/BE/testApiMongoDb/client/assets/"
   }
 }
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 17.167000025510788ms.
+debug: Fetch asset-db cost: 10.038299977779388ms.
 debug: Build iteration starts.
-Number of accumulated asset changes: 1
+Number of accumulated asset changes: 4
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 07:00:41 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:00:22 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 07:00:22 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:00:26 GMT+0700 (GMT+07:00)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -82,15 +82,32 @@ debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as extern
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:47 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:00:32 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:54:05 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:00:26 GMT+0700 (GMT+07:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Detected change: file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts. Last mtime: Sun Feb 18 2024 16:05:05 GMT+0700 (GMT+07:00)@b2bd1fa7-8d7c-49c5-a158-df29a6d3a594, Current mtime: Mon Apr 15 2024 19:28:43 GMT+0700 (GMT+07:00)@b2bd1fa7-8d7c-49c5-a158-df29a6d3a594
+debug: Inspect file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts
 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-debug: Target(editor) ends with cost 124.20179998874664ms.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Thu Apr 18 2024 14:24:06 GMT+0700 (GMT+07:00), Current mtime: Thu Apr 18 2024 20:47:12 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 474.4286000132561ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 07:00:41 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:00:32 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 07:00:32 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:00:26 GMT+0700 (GMT+07:00)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
@@ -111,699 +128,800 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:47 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:00:32 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:54:05 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:00:26 GMT+0700 (GMT+07:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Detected change: file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts. Last mtime: Sun Feb 18 2024 16:05:05 GMT+0700 (GMT+07:00)@b2bd1fa7-8d7c-49c5-a158-df29a6d3a594, Current mtime: Mon Apr 15 2024 19:28:43 GMT+0700 (GMT+07:00)@b2bd1fa7-8d7c-49c5-a158-df29a6d3a594
+debug: Inspect file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts
 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-debug: Target(preview) ends with cost 97.35060000419617ms.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Thu Apr 18 2024 14:24:06 GMT+0700 (GMT+07:00), Current mtime: Thu Apr 18 2024 20:47:12 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 392.0620000064373ms.
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 1301.5775000154972ms.
+debug: Fetch asset-db cost: 738.5719999969006ms.
 debug: Build iteration starts.
-Number of accumulated asset changes: 1
+Number of accumulated asset changes: 4
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:32 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:00:34 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:26 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:00:30 GMT+0700 (GMT+07:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Target(editor) ends with cost 130.32190001010895ms.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Target(editor) ends with cost 34.5387000143528ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:32 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:00:34 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:26 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:00:30 GMT+0700 (GMT+07:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Target(preview) ends with cost 79.56650000810623ms.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Target(preview) ends with cost 34.66179999709129ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:34 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:25:19 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:30 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:20:51 GMT+0700 (GMT+07:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Target(editor) ends with cost 103.11390000581741ms.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 20:43:59 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:08:02 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 129.58469998836517ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:34 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:25:19 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:30 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:20:51 GMT+0700 (GMT+07:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Target(preview) ends with cost 138.65340000391006ms.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 20:43:59 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:08:02 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 100.40430000424385ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:20:51 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:21:43 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:08:02 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:08:47 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 66.89920002222061ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:20:51 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:21:43 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:08:02 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:08:47 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 81.66800001263618ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:21:43 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:22:46 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:08:47 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:09:57 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 72.57580000162125ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:21:43 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:22:46 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:08:47 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:09:57 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 84.47589999437332ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:22:46 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:26:57 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:09:57 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:14:06 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 71.87569999694824ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:22:46 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:26:57 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:09:57 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:14:06 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 88.98939999938011ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:26:57 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:30:09 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:14:06 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:16:17 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 79.78850001096725ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:26:57 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:30:09 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:14:06 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:16:17 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 81.98420000076294ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:30:09 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:42:49 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:16:17 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:29:59 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 72.07600000500679ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:30:09 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:42:49 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:16:17 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:29:59 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 95.55889999866486ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:42:49 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:46:14 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:29:59 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:32:05 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 90.8973000049591ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:42:49 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:46:15 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:29:59 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:32:05 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 74.29750001430511ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:46:14 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:52:11 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:32:05 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:35:24 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 91.56049999594688ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:46:15 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:52:11 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:32:05 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:35:24 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 81.44319999217987ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:52:11 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:55:11 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:35:24 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:42:21 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 68.8285000026226ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:52:11 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:55:11 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:35:24 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:42:21 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 76.67249998450279ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:55:11 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:55:33 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:42:21 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:42:44 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 67.27810001373291ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:55:11 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:55:33 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:42:21 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:42:44 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 173.54919999837875ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:55:33 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:57:21 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:42:44 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:44:31 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 133.97459998726845ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:55:33 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:57:21 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:42:44 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:44:31 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 152.05370000004768ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:57:21 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:59:00 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:44:31 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:46:11 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 107.13780000805855ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:57:21 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 07:59:00 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:44:31 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:46:11 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 110.72349998354912ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:59:00 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:02:19 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:46:11 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:49:30 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 93.62020000815392ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:59:00 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:02:19 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:46:11 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:49:30 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 100.32149997353554ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:02:19 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:03:57 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:49:30 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:51:09 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 88.21539998054504ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:02:19 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:03:57 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:49:30 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:51:09 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 93.69580000638962ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:03:57 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:04:20 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:51:09 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:51:31 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 94.63890001177788ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:03:57 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:04:20 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:51:09 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:51:31 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 91.09400001168251ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:04:20 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:04:36 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:51:31 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:51:44 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 79.9675000011921ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:04:20 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:04:36 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:51:31 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:51:44 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 120.28499999642372ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:04:36 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:04:53 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:51:44 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:52:03 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 81.93469998240471ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:04:36 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:04:53 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:51:44 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:52:03 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 253.8822000026703ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:04:53 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:06:58 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:52:03 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:54:09 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 96.70280000567436ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:04:53 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:06:58 GMT+0700 (GMT+07:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:52:03 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:54:09 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 96.89219999313354ms.
 debug: Dispatch build request for time accumulated 2 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 2
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:25:19 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:35:39 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:06:58 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:10:03 GMT+0700 (GMT+07:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/ConstData.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/ConstData.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 14:49:25 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 15:59:44 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Target(editor) ends with cost 291ms.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 20:43:59 GMT+0700 (GMT+07:00)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 21:56:40 GMT+0700 (GMT+07:00)@57e8525d-94ee-444f-8013-a0608d13bb95
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:54:09 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:57:15 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 104.13040000200272ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:25:19 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:35:40 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:06:58 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:10:04 GMT+0700 (GMT+07:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/ConstData.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/ConstData.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 14:49:25 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 15:59:44 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Target(preview) ends with cost 247.47119998931885ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:35:39 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:35:47 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Target(editor) ends with cost 85.3425999879837ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:35:40 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:35:47 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Target(preview) ends with cost 100.22030001878738ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:35:47 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:36:34 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 15:59:44 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 16:00:13 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Target(editor) ends with cost 121.62260001897812ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:35:47 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:36:34 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 15:59:44 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 16:00:13 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Target(preview) ends with cost 195.95519998669624ms.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 20:43:59 GMT+0700 (GMT+07:00)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 21:56:40 GMT+0700 (GMT+07:00)@57e8525d-94ee-444f-8013-a0608d13bb95
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:54:09 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:57:15 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 120.88560000061989ms.
 debug: Dispatch build request for time accumulated 2 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 2
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:36:34 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:38:58 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:03 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:10:45 GMT+0700 (GMT+07:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 16:00:13 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 16:02:18 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 15:59:53 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 16:03:03 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Inspect cce:/internal/code-quality/cr.mjs
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(editor) ends with cost 323.6440999805927ms.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 21:56:40 GMT+0700 (GMT+07:00)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 21:57:56 GMT+0700 (GMT+07:00)@57e8525d-94ee-444f-8013-a0608d13bb95
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:57:15 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:57:38 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 104.15369999408722ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:36:34 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:38:58 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:04 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:10:45 GMT+0700 (GMT+07:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 16:00:13 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 16:02:18 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 15:59:53 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 16:03:03 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Inspect cce:/internal/code-quality/cr.mjs
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(preview) ends with cost 310.1284000277519ms.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 21:56:40 GMT+0700 (GMT+07:00)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 21:57:56 GMT+0700 (GMT+07:00)@57e8525d-94ee-444f-8013-a0608d13bb95
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:57:15 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 21:57:38 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 136.1836000084877ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:38:58 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:39:31 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:45 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:14:43 GMT+0700 (GMT+07:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 16:03:03 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 16:03:37 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Target(editor) ends with cost 69.33880001306534ms.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 21:57:56 GMT+0700 (GMT+07:00)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 22:00:35 GMT+0700 (GMT+07:00)@57e8525d-94ee-444f-8013-a0608d13bb95
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Target(editor) ends with cost 61.97599998116493ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:38:58 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:39:31 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:45 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:14:43 GMT+0700 (GMT+07:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 16:03:03 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 16:03:37 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Target(preview) ends with cost 102.38679999113083ms.
-debug: Dispatch build request for time accumulated 2 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 2
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:39:31 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:40:54 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 16:02:18 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 16:04:54 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 16:03:37 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 16:04:59 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Target(editor) ends with cost 161.4268000125885ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:39:31 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:40:54 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 16:02:18 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 16:04:54 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 16:03:37 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 16:04:59 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Target(preview) ends with cost 181.4772000014782ms.
-debug: Dispatch build request for time accumulated 2 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 2
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:40:54 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:41:23 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 16:04:54 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 16:05:28 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 16:04:59 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 16:05:20 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(editor) ends with cost 113.83970001339912ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:40:54 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:41:23 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 16:04:54 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 16:05:28 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 16:04:59 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 16:05:20 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(preview) ends with cost 184.97749999165535ms.
-debug: Dispatch build request for time accumulated 2 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 2
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:41:23 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:41:50 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 16:05:28 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 16:05:46 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 16:05:20 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 16:05:55 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(editor) ends with cost 112.43130001425743ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:41:23 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:41:50 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 16:05:28 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 16:05:46 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 16:05:20 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 16:05:55 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(preview) ends with cost 302.17460000514984ms.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 21:57:56 GMT+0700 (GMT+07:00)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 22:00:35 GMT+0700 (GMT+07:00)@57e8525d-94ee-444f-8013-a0608d13bb95
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Target(preview) ends with cost 83.1651999950409ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:41:50 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:48:46 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:14:43 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:16:01 GMT+0700 (GMT+07:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 16:05:46 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 16:10:54 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Target(editor) ends with cost 96.83730000257492ms.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:57:38 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 22:03:12 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(editor) ends with cost 67.36859998106956ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:41:50 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:48:46 GMT+0700 (Indochina Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:14:43 GMT+0700 (GMT+07:00), Current mtime: Thu Jan 01 1970 08:16:01 GMT+0700 (GMT+07:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 16:05:46 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 16:10:54 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Target(preview) ends with cost 166.12530001997948ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:48:46 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:49:34 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 16:10:54 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 16:13:38 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Target(editor) ends with cost 89.23070001602173ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:48:46 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:49:34 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 16:10:54 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 16:13:38 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Target(preview) ends with cost 122.17579999566078ms.
-debug: Dispatch build request for time accumulated 2 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 2
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:49:34 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 09:38:57 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 16:13:38 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 17:02:59 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 16:05:55 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 17:03:01 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(editor) ends with cost 95.53369998931885ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:49:34 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 09:38:57 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 16:13:38 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 17:02:59 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 16:05:55 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 17:03:01 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(preview) ends with cost 131.13940000534058ms.
-debug: Dispatch build request for time accumulated 2 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 2
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:38:57 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 09:46:03 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/ConstData.ts. Last mtime: Thu Apr 18 2024 15:59:25 GMT+0700 (Indochina Time)@b2139676-6e5c-4f2d-ad46-29203780b58e, Current mtime: Thu Apr 18 2024 17:09:53 GMT+0700 (Indochina Time)@b2139676-6e5c-4f2d-ad46-29203780b58e
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/ConstData.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/ConstData.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 17:03:01 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 17:10:08 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(editor) ends with cost 102.49760001897812ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:38:57 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 09:46:03 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/ConstData.ts. Last mtime: Thu Apr 18 2024 15:59:25 GMT+0700 (Indochina Time)@b2139676-6e5c-4f2d-ad46-29203780b58e, Current mtime: Thu Apr 18 2024 17:09:53 GMT+0700 (Indochina Time)@b2139676-6e5c-4f2d-ad46-29203780b58e
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/ConstData.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/ConstData.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 17:03:01 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 17:10:08 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(preview) ends with cost 113.27629998326302ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:46:03 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 09:50:30 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 17:02:59 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 17:14:35 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Target(editor) ends with cost 65.90560001134872ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:46:03 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 09:50:30 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 17:02:59 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 17:14:35 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Target(preview) ends with cost 85.18299999833107ms.
-debug: Dispatch build request for time accumulated 3 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 3
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:50:30 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 09:52:30 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/ConstData.ts. Last mtime: Thu Apr 18 2024 17:09:53 GMT+0700 (Indochina Time)@b2139676-6e5c-4f2d-ad46-29203780b58e, Current mtime: Thu Apr 18 2024 17:16:13 GMT+0700 (Indochina Time)@b2139676-6e5c-4f2d-ad46-29203780b58e
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/ConstData.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/ConstData.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 17:14:35 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 17:16:11 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 17:10:08 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 17:16:35 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(editor) ends with cost 135.79379999637604ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:50:30 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 09:52:30 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/ConstData.ts. Last mtime: Thu Apr 18 2024 17:09:53 GMT+0700 (Indochina Time)@b2139676-6e5c-4f2d-ad46-29203780b58e, Current mtime: Thu Apr 18 2024 17:16:13 GMT+0700 (Indochina Time)@b2139676-6e5c-4f2d-ad46-29203780b58e
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/ConstData.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/ConstData.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 17:14:35 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 17:16:11 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 17:10:08 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 17:16:35 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(preview) ends with cost 136.52060002088547ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:52:30 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 10:25:02 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 17:16:35 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 17:17:00 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(editor) ends with cost 56.15479999780655ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:52:30 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 10:25:02 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 17:16:35 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 17:17:00 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(preview) ends with cost 89.31669998168945ms.
-debug: Dispatch build request for time accumulated 2 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 2
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:25:02 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 10:40:08 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 17:16:11 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 18:04:10 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 17:17:00 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 18:04:13 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(editor) ends with cost 111.28049999475479ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:25:02 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 10:40:08 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/scipts/xml.ts. Last mtime: Thu Apr 18 2024 17:16:11 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95, Current mtime: Thu Apr 18 2024 18:04:10 GMT+0700 (Indochina Time)@57e8525d-94ee-444f-8013-a0608d13bb95
-debug: Inspect file:///D:/BE/testApi/client/assets/scipts/xml.ts
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/scipts/xml.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 17:17:00 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 18:04:13 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(preview) ends with cost 134.68340000510216ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:40:08 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 10:41:56 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 18:04:13 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 18:05:59 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(editor) ends with cost 96.63240000605583ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:40:08 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 10:41:56 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 18:04:13 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 18:05:59 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(preview) ends with cost 96.828400015831ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:41:56 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 10:53:31 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 18:05:59 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 18:17:36 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(editor) ends with cost 228.66889998316765ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:41:56 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 10:53:31 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 18:05:59 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 18:17:36 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(preview) ends with cost 116.87470000982285ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:53:31 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 10:54:05 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 18:17:36 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 18:18:10 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(editor) ends with cost 64.55110001564026ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:53:31 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 10:54:05 GMT+0700 (Indochina Time)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/ConstData.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Resolve file:///D:/BE/testApi/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApi/client/assets/test.ts.
-debug: Detected change: file:///D:/BE/testApi/client/assets/test.ts. Last mtime: Thu Apr 18 2024 18:17:36 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 18:18:10 GMT+0700 (Indochina Time)@8c2becb5-c678-404f-ab92-2c5eea66d408
-debug: Inspect file:///D:/BE/testApi/client/assets/test.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/BE/testApi/client/assets/test.ts as cce:/internal/x/cc.
-debug: Resolve ./scipts/xml from file:///D:/BE/testApi/client/assets/test.ts as file:///D:/BE/testApi/client/assets/scipts/xml.ts.
-debug: Target(preview) ends with cost 101.23710000514984ms.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/ConstData.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Resolve file:///D:/BE/testApiMongoDb/client/assets/test.ts from cce:/internal/x/prerequisite-imports as file:///D:/BE/testApiMongoDb/client/assets/test.ts.
+debug: Detected change: file:///D:/BE/testApiMongoDb/client/assets/test.ts. Last mtime: Thu Apr 18 2024 21:57:38 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408, Current mtime: Thu Apr 18 2024 22:03:12 GMT+0700 (GMT+07:00)@8c2becb5-c678-404f-ab92-2c5eea66d408
+debug: Inspect file:///D:/BE/testApiMongoDb/client/assets/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/BE/testApiMongoDb/client/assets/test.ts as cce:/internal/x/cc.
+debug: Resolve ./scipts/xml from file:///D:/BE/testApiMongoDb/client/assets/test.ts as file:///D:/BE/testApiMongoDb/client/assets/scipts/xml.ts.
+debug: Target(preview) ends with cost 75.36010000109673ms.
