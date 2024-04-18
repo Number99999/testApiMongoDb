@@ -1,0 +1,10 @@
+{
+  "name": "connectBE",
+  "uuid": "4595b934-ee14-48aa-a6d7-1d0b42fae311",
+  "creator": {
+    "version": "3.8.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}

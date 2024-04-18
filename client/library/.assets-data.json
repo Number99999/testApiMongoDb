@@ -1,0 +1,29 @@
+{
+  "e02fcc98-e9b0-4860-a362-09a2f8e92900": {
+    "url": "db://assets/scipts",
+    "value": {}
+  },
+  "57e8525d-94ee-444f-8013-a0608d13bb95": {
+    "url": "db://assets/scipts/xml.ts",
+    "value": {}
+  },
+  "b2139676-6e5c-4f2d-ad46-29203780b58e": {
+    "url": "db://assets/scipts/ConstData.ts",
+    "value": {}
+  },
+  "8c2becb5-c678-404f-ab92-2c5eea66d408": {
+    "url": "db://assets/test.ts",
+    "value": {}
+  },
+  "6075c47e-c477-4dae-9f7c-d6b51ce1775a": {
+    "url": "db://assets/scene.scene",
+    "value": {
+      "depends": [
+        "6075c47e-c477-4dae-9f7c-d6b51ce1775a"
+      ],
+      "dependScripts": [
+        "8c2becb5-c678-404f-ab92-2c5eea66d408"
+      ]
+    }
+  }
+}

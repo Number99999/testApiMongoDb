@@ -1,0 +1,9 @@
+4-18-2024 14:20:36-log: Cannot access game frame or container.
+4-18-2024 14:20:37-debug: asset-db:require-engine-code (3406ms)
+4-18-2024 14:20:38-log: Cocos Creator v3.8.0
+4-18-2024 14:20:38-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:14.61MB, end 86.75MB, increase: 72.14MB
+4-18-2024 14:20:38-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:90.44MB, end 93.96MB, increase: 3.52MB
+4-18-2024 14:20:38-debug: [Assets Memory track]: asset-db-plugin-register: programming start:87.59MB, end 90.39MB, increase: 2.80MB
+4-18-2024 14:20:38-debug: [Assets Memory track]: asset-db-plugin-enable: project start:90.59MB, end 93.97MB, increase: 3.37MB
+4-18-2024 14:20:38-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:86.76MB, end 93.97MB, increase: 7.21MB
+4-18-2024 14:20:38-debug: asset-db:worker-init: initPlugin (337ms)

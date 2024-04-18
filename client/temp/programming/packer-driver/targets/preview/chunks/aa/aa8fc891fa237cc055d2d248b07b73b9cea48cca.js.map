@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///D:/BE/testApi/client/assets/scipts/ConstData.ts"],"names":["ConstData","domain"],"mappings":";;;;;;;;;;;;;;2BAAaA,S,GAAY;AACrBC,QAAAA,MAAM,EAAE;AADa,O","sourcesContent":["export const ConstData = {\r\n    domain: \"localhost:8080\",\r\n}"]}
