@@ -3,6 +3,6 @@ ConstData = {
   // url: "mongodb://localhost:27017",
   port: 8080,
   dbName: "newestDB",
-  success: "success"
+  success: "success",
 };
 module.exports = ConstData;
